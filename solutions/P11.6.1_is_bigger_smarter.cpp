@@ -13,6 +13,7 @@
 
 using namespace std;
 
+const int MAX = 1000;
 
 class Elephant
 {
@@ -69,8 +70,8 @@ elephant_list read_input(string filename)
 
 void LIS( const elephant_list &a )
 {
-    int P[100];
-    int L[100];
+    int P[MAX];
+    int L[MAX];
 
     int maxlis = 1, best = 0;
     int s = a.size();
