@@ -112,7 +112,7 @@ int main(void)
 {
     elephant_list elephants = read_input("P11.6.1_input.1.txt");
 	
-	// Solve, find the longest increasing subsequence in a specially sorted sequence
+    // Solve, find the longest increasing subsequence in a specially sorted sequence.
     sort(elephants.begin(), elephants.end());
     LIS(elephants);
     return 0;
